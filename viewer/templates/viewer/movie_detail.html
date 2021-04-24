@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1> {{ object.title }} </h1>
+<h2> {{ object.released }} </h2>
+<h3> {{ object.genre }} </h3>
+<p><strong> Rating: </strong> {{ object.rating }}</p>
+<p> {{ object.description }} </p>
+
+{% endblock %}

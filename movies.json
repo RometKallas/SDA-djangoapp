@@ -1,0 +1,21 @@
+[
+    {
+        "model": "viewer.genre",
+        "pk": 1,
+        "fields": {
+            "name": "Thriller"
+        }
+    },
+    {
+        "model": "viewer.movie",
+        "pk": 1,
+        "fields": {
+            "title": "Smooth Criminal",
+            "genre": 1,
+            "rating": 4,
+            "released": "2021-03-27",
+            "description": "Awesome song",
+            "created": "2021-03-27T12:37:20.076Z"
+        }
+    }
+]
